@@ -1,0 +1,8 @@
+// WinHex license file
+
+Name: "RickWare"
+Addr1: "Rick"
+Addr2: "Ware"
+Key1: B69B865ADDA2983257D8660C544DBC9E
+Key2: 88963657753DECDCD7F37F9CC5CDCC90
+Chksm: 3E

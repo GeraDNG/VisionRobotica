@@ -1,0 +1,23 @@
+03-27-2019 20:32:31 T#2[0x000058b4] INFO  - Beginning application initialization
+03-27-2019 20:32:32 T#2[0x000058b4] INFO  - Vision Engine version: 7020102 starting
+03-27-2019 20:32:35 T#2[0x000058b4] INFO  - Load starts
+03-27-2019 20:32:35 T#2[0x000058b4] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-27-2019 20:32:35 T#2[0x000058b4] INFO  - Load finished
+03-27-2019 20:32:35 T#2[0x000058b4] INFO  - Application initialization succeeded
+03-27-2019 20:34:23 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:23 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:24 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:24 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-27-2019 20:34:25 T#6[0x00007154] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-27-2019 20:37:07 T#2[0x000058b4] INFO  - Vision Engine terminating
+03-27-2019 20:37:07 T#2[0x000058b4] INFO  - Beginning application shutdown
+03-27-2019 20:37:07 T#2[0x000058b4] INFO  - Application shutdown succeeded

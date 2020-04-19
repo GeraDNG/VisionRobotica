@@ -1,0 +1,1431 @@
+<?xml version="1.0"?>
+<!--  Monday, March 04, 2019 11:27:52  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Count"
+	RtType="1"
+	RtId="166516496"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="6"
+/>
+</Var>
+<Var
+	RtName="Prime"
+	RtType="1"
+	RtId="166517728"
+	ValType="256">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Centroid0"
+	RtType="1"
+	RtId="166512272"
+	ValType="260">
+<Obj
+	Type="6"
+	Val="280.7099609375,179.84193420410156"
+/>
+</Var>
+<Var
+	RtName="Centroids"
+	RtType="1"
+	RtId="166517024"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(280.7099609375,179.84193420410156),(367.16299438476562,127.46028900146484),(286.81524658203125,45.02435302734375),(188.87347412109375,140.80116271972656),(161.26713562011719,50.934162139892578),(211.02061462402344,225.29463195800781)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="TopBoundingBoxes"
+	RtType="1"
+	RtId="166517904"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(254,153),(340,100),(260,18),(162,114),(134,24),(184,199)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="BottomRightBoundingBoxes"
+	RtType="1"
+	RtId="166518080"
+	ValType="516">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(308,207),(395,155),(314,72),(216,168),(188,78),(238,252)"
+/>
+</Obj>
+</Var>
+<Var
+	RtName="Message01"
+	RtType="1"
+	RtId="166517376"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Count: 6"
+/>
+</Var>
+<Var
+	RtName="Message02"
+	RtType="1"
+	RtId="166518608"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Prime: false"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="179321040"
+/>
+<FileIo
+	RtId="179321568"
+/>
+<FileIo
+	RtId="179307312"
+/>
+<FileIo
+	RtId="179322096"
+/>
+<FileIo
+	RtId="179317872"
+/>
+<FileIo
+	RtId="179322624"
+/>
+<FileIo
+	RtId="179317344"
+/>
+<FileIo
+	RtId="179311536"
+/>
+<FileIo
+	RtId="179312592"
+/>
+<FileIo
+	RtId="179318928"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="178176384"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="180259008"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="99"
+	WndPosTop="8"
+	WndPosRight="761"
+	WndPosBottom="565"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="0"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="179850464"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="178342832"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="32.505199998617172"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 32.51"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="180422720"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\ProyectsRoboticVision\S02_Rings\Set1"
+	FileSeqPrefix="Anillos"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="3"
+	FileSeqNameFormat="1"
+	SoRtId="180259008"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166524592"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="179533184"
+	ParentInstr="180259008"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="180259008"
+/>
+<Instruction
+	RtName="PrimeNumber"
+	RtType="5"
+	RtId="180328576"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="0"
+	RoiLocked="1"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="5"
+	HdrLocY="-5"
+	WriteChanges="1"
+	Locked="1"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="180259008"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(0,0),(639,479)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="180664848"
+	ParentInstr="180328576"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="180328576"
+	Tag="PrimeDetector-PrimeNumber-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="179445056"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="128"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="179442928"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="179439888"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="1"
+	RtName="prepB"
+	RtType="5"
+	RtId="180665168"
+	ParentInstr="180328576"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="180328576"
+	Tag="PrimeDetector-PrimeNumber-prepB"
+	ImgProcId="_CIpeMonoErode_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="179440192"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="2"
+/>
+</id0>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="2"
+	RtName="prepC"
+	RtType="5"
+	RtId="180662928"
+	ParentInstr="180328576"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="180328576"
+	Tag="PrimeDetector-PrimeNumber-prepC"
+	ImgProcId="_CIpeMonoDilate_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="179440496"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="2"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="180661648"
+	ParentInstr="180328576"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="180328576"
+	Tag="PrimeDetector-PrimeNumber-algA"
+	ImgProcId="_CIpeConnectivityBinary_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="179513952"
+	ConnVar="166516496"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="count: 6.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="180329824"
+	ConnVar="166512272"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="280.7099609375,179.84193420410156"
+/>
+<Annot
+	Type="1"
+	X="337"
+	Y="224"
+	Clr="0"
+	Text="centroid[0]: (280.71, 179.84)"
+	Display="1"
+	Highlight="0"
+	So="180259008">
+<Coord
+	Size="2"
+	Value="280.71,179.842"
+/>
+</Annot>
+</id1>
+<id2
+	RtId="82967744"
+	ConnVar="166517024"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(280.7099609375,179.84193420410156),(367.16299438476562,127.46028900146484),(286.81524658203125,45.02435302734375),(188.87347412109375,140.80116271972656),(161.26713562011719,50.934162139892578),(211.02061462402344,225.29463195800781)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="337"
+	Y="241"
+	Clr="0"
+	Text="centroid[]: ((280.71, 179.84), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="180259008">
+<Coord
+	Size="12"
+	Value="280.71,179.842,367.163,127.46,286.815,45.0244,188.873,140.801,161.267,50.9342,211.021,225.295"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="179146608"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="1917,1914,1889,1881,1853,1843"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="area[]: ((1917.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="179147440"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="55,56,55,55,55,55"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="width[]: ((55.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="180463360"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="55,56,55,55,55,54"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="height[]: ((55.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="180464192"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="269.5218505859375,272.93606567382812,271.5218505859375,268.93606567382812,267.76449584960937,268.93606567382812"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="perimeter length[]: ((269.52), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id7
+	RtId="180465024"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="1,1,1,1,1,1"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="hole count[]: ((1.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id7>
+<id8
+	RtId="180465856"
+	ConnVar="166517904"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(254,153),(340,100),(260,18),(162,114),(134,24),(184,199)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="bbox tl[]: ((254.00, 153.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="180259008">
+<Coord
+	Size="12"
+	Value="254,153,340,100,260,18,162,114,134,24,184,199"
+/>
+</Annot>
+</id8>
+<id9
+	RtId="180466688"
+	ConnVar="166518080"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="6"
+	Value="(308,207),(395,155),(314,72),(216,168),(188,78),(238,252)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="19"
+	Clr="0"
+	Text="bbox br[]: ((308.00, 207.00), ...) [6]"
+	Display="1"
+	Highlight="1"
+	So="180259008">
+<Coord
+	Size="12"
+	Value="308,207,395,155,314,72,216,168,188,78,238,252"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="180467520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="7.3371062278747559,7.5985550880432129,7.6258974075317383,7.4790806770324707,7.5405936241149902,7.6807937622070313"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="elongation[]: ((7.34), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="180468352"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="16.163993835449219,15.87104320526123,15.73875904083252,15.858798980712891,15.675989151000977,15.490292549133301"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber width[]: ((16.16), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="180469184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="118.59693145751953,120.59699249267578,120.02216339111328,118.60923004150391,118.20626068115234,118.97773742675781"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber length[]: ((118.60), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id13
+	RtId="180470016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0.33162251114845276,0.32287168502807617,0.32198250293731689,0.32681393623352051,0.32477253675460815,0.32021161913871765"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="form factor[]: ((0.33), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id13>
+<id14
+	RtId="179653872"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse major[]: ((0.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id14>
+<id15
+	RtId="179651376"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse minor[]: ((0.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id15>
+<id16
+	RtId="179652208"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse angle[]: ((0.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id16>
+<id17
+	RtId="179654704"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse axes ratio[]: ((0.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id17>
+<id18
+	RtId="179655536"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="6"
+	Value="0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse roundness[]: ((0.00), ...) [6]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id18>
+</Outputs>
+<Params>
+<id0
+	RtName="black blobs"
+	RtType="2"
+	RtId="179440800"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id0>
+<id1
+	RtName="8 way"
+	RtType="2"
+	RtId="178317248"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min area"
+	RtType="2"
+	RtId="178317552"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="100"
+/>
+</id2>
+<id3
+	RtName="max area"
+	RtType="2"
+	RtId="178316640"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="10000"
+/>
+</id3>
+<id4
+	RtName="min width"
+	RtType="2"
+	RtId="178318464"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="max width"
+	RtType="2"
+	RtId="178319376"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id5>
+<id6
+	RtName="min height"
+	RtType="2"
+	RtId="178319680"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="max height"
+	RtType="2"
+	RtId="178319984"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id7>
+<id8
+	RtName="max returned"
+	RtType="2"
+	RtId="178320288"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="50"
+/>
+</id8>
+<id9
+	RtName="remove blobs touching border"
+	RtType="2"
+	RtId="178316944"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="enable sorting"
+	RtType="2"
+	RtId="181646464"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id10>
+<id11
+	RtName="descending"
+	RtType="2"
+	RtId="181647984"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id11>
+<id12
+	RtName="sorting criteria"
+	RtType="2"
+	RtId="181647376"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id12>
+<id13
+	RtName="enable moment-related calculations"
+	RtType="2"
+	RtId="181645856"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id13>
+<id14
+	RtName="first blob bounding box"
+	RtType="2"
+	RtId="181642816"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id14>
+<id15
+	RtName="bounding boxes"
+	RtType="2"
+	RtId="181647680"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id15>
+<id17
+	RtName="ellipse axes"
+	RtType="2"
+	RtId="181649200"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id17>
+<id18
+	RtName="labels"
+	RtType="2"
+	RtId="181646160"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id18>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="166522480"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="179057760"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="// JavaScript programming: Convert total to a String, &#xD;// to be displayed on image screen.&#xD;&#xD;// Making a message to display Count (of pieces):&#xD;Vars.Message01 = &quot;Count: &quot; + Vars.Count;&#xD;&#xD;// Checking if Count is prime or not and saving on Prime:&#xD;var i;&#xD;Vars.Prime = true;&#xD;if(Vars.Count == 0 || Vars.Count == 1) {&#xD;	Vars.Prime = false;&#xD;}&#xD;else {&#xD;	for(i=2; i&lt;Vars.Count; i++) {&#xD;		if(Vars.Count % i == 0) {&#xD;			Vars.Prime = false;&#xD;		}&#xD;	}&#xD;}&#xD;&#xD;// Making a message to display if Count is prime or not:&#xD;Vars.Message02 = &quot;Prime: &quot; + Vars.Prime;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="MessageCount"
+	RtType="5"
+	RtId="179532096"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="1"
+	Tag="PrimeDetector-MessageCount">
+<Inputs>
+<id0
+	RtId="179173408"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="20,20"
+/>
+</id0>
+<id1
+	RtId="179170528"
+	Connected="166517376">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="179171248"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="179171728"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="MessagePrime"
+	RtType="5"
+	RtId="179534000"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="PrimeDetector-MessagePrime">
+<Inputs>
+<id0
+	RtId="181654192"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="20,40"
+/>
+</id0>
+<id1
+	RtId="181650112"
+	Connected="166518608">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="181655632"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="16777215"
+/>
+</id2>
+<id3
+	RtId="181652512"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="179528288"
+	ParentInstr="180259008"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="180259008"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="178176384"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="178176384">
+<Children>
+<Child
+	Id="180259008"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="180259008">
+<Children>
+<Child
+	Id="179533184"
+/>
+<Child
+	Id="180328576"
+/>
+<Child
+	Id="179057760"
+/>
+<Child
+	Id="179532096"
+/>
+<Child
+	Id="179534000"
+/>
+<Child
+	Id="179528288"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

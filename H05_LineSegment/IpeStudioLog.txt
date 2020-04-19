@@ -1,0 +1,406 @@
+03-05-2019 14:28:11 T#2[0x000029b4] INFO  - Beginning application initialization
+03-05-2019 14:28:13 T#2[0x000029b4] INFO  - Vision Engine version: 7020102 starting
+03-05-2019 14:28:15 T#2[0x000029b4] INFO  - Load starts
+03-05-2019 14:28:15 T#2[0x000029b4] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-05-2019 14:28:15 T#2[0x000029b4] INFO  - Load finished
+03-05-2019 14:28:15 T#2[0x000029b4] INFO  - Application initialization succeeded
+03-05-2019 14:39:42 T#2[0x000029b4] INFO  - Vision Engine terminating
+03-05-2019 14:39:42 T#2[0x000029b4] INFO  - Beginning application shutdown
+03-05-2019 14:39:42 T#2[0x000029b4] INFO  - Application shutdown succeeded
+03-05-2019 14:39:44 T#2[0x000013c0] INFO  - Beginning application initialization
+03-05-2019 14:39:45 T#2[0x000013c0] INFO  - Vision Engine version: 7020102 starting
+03-05-2019 14:39:47 T#2[0x000013c0] INFO  - Load starts
+03-05-2019 14:39:47 T#2[0x000013c0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-05-2019 14:39:47 T#2[0x000013c0] INFO  - Load finished
+03-05-2019 14:39:47 T#2[0x000013c0] INFO  - Application initialization succeeded
+03-05-2019 14:50:02 T#2[0x000013c0] INFO  - Vision Engine terminating
+03-05-2019 14:50:02 T#2[0x000013c0] INFO  - Beginning application shutdown
+03-05-2019 14:50:02 T#2[0x000013c0] INFO  - Application shutdown succeeded
+03-05-2019 14:52:35 T#2[0x00003f38] INFO  - Beginning application initialization
+03-05-2019 14:52:36 T#2[0x00003f38] INFO  - Vision Engine version: 7020102 starting
+03-05-2019 14:52:38 T#2[0x00003f38] INFO  - Load starts
+03-05-2019 14:52:38 T#2[0x00003f38] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-05-2019 14:52:38 T#2[0x00003f38] INFO  - Load finished
+03-05-2019 14:52:38 T#2[0x00003f38] INFO  - Application initialization succeeded
+03-05-2019 15:00:22 T#6[0x00002e6c] ERROR - Monitor: Script - scriptA (line 6) : Error #1 in "scriptA" at line #6. ReferenceError: LineB is not defined - Main : scriptA
+03-05-2019 15:00:22 T#6[0x00002e6c] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-05-2019 15:00:22 T#6[0x00002e6c] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-05-2019 15:00:24 T#6[0x00002e6c] ERROR - Monitor: Script - scriptA (line 6) : Error #1 in "scriptA" at line #6. ReferenceError: LineB is not defined - Main : scriptA
+03-05-2019 15:00:24 T#6[0x00002e6c] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-05-2019 15:00:24 T#6[0x00002e6c] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-05-2019 15:00:25 T#6[0x00002e6c] ERROR - Monitor: Script - scriptA (line 6) : Error #1 in "scriptA" at line #6. ReferenceError: LineB is not defined - Main : scriptA
+03-05-2019 15:00:25 T#6[0x00002e6c] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-05-2019 15:00:25 T#6[0x00002e6c] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-05-2019 15:16:33 T#2[0x00003f38] INFO  - Autosaving starts
+03-05-2019 15:16:33 T#2[0x00003f38] INFO  - Autosaving finished
+03-05-2019 15:22:28 T#2[0x00003f38] INFO  - Saving starts
+03-05-2019 15:22:28 T#2[0x00003f38] INFO  - Saving finished
+03-05-2019 15:22:29 T#2[0x00003f38] INFO  - Vision Engine terminating
+03-05-2019 15:22:29 T#2[0x00003f38] INFO  - Beginning application shutdown
+03-05-2019 15:22:29 T#2[0x00003f38] INFO  - Application shutdown succeeded
+03-05-2019 15:22:31 T#2[0x00000aac] INFO  - Beginning application initialization
+03-05-2019 15:22:32 T#2[0x00000aac] INFO  - Vision Engine version: 7020102 starting
+03-05-2019 15:22:34 T#2[0x00000aac] INFO  - Load starts
+03-05-2019 15:22:34 T#2[0x00000aac] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-05-2019 15:22:34 T#2[0x00000aac] INFO  - Load finished
+03-05-2019 15:22:34 T#2[0x00000aac] INFO  - Application initialization succeeded
+03-05-2019 15:44:43 T#2[0x00000aac] INFO  - Autosaving starts
+03-05-2019 15:44:44 T#2[0x00000aac] INFO  - Autosaving finished
+03-05-2019 15:45:16 T#2[0x00000aac] INFO  - Saving starts
+03-05-2019 15:45:16 T#2[0x00000aac] INFO  - Saving finished
+03-05-2019 20:20:29 T#2[0x00000aac] INFO  - Autosaving starts
+03-05-2019 20:20:29 T#2[0x00000aac] INFO  - Autosaving finished
+03-05-2019 20:49:24 T#2[0x00000aac] INFO  - Autosaving starts
+03-05-2019 20:49:24 T#2[0x00000aac] INFO  - Autosaving finished
+03-05-2019 20:55:53 T#2[0x00000aac] INFO  - Autosaving starts
+03-05-2019 20:55:53 T#2[0x00000aac] INFO  - Autosaving finished
+03-06-2019 13:33:55 T#2[0x00000aac] INFO  - Saving starts
+03-06-2019 13:33:55 T#2[0x00000aac] INFO  - Saving finished
+03-06-2019 13:34:12 T#2[0x00000aac] INFO  - Saving starts
+03-06-2019 13:34:12 T#2[0x00000aac] INFO  - Saving finished
+03-06-2019 13:54:50 T#2[0x00000aac] INFO  - Autosaving starts
+03-06-2019 13:54:50 T#2[0x00000aac] INFO  - Autosaving finished
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Script - scriptA (line 6) : Error #109 in "scriptA" at line #6. SyntaxError: missing ; before statement - Main : scriptA
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Script - scriptA (line 6) : Error #109 in "scriptA" at line #6. SyntaxError: missing ; before statement - Main : scriptA
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:12:13 T#6[0x000030bc] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:12:14 T#6[0x000030bc] ERROR - Monitor: Script - scriptA (line 6) : Error #109 in "scriptA" at line #6. SyntaxError: missing ; before statement - Main : scriptA
+03-06-2019 14:12:14 T#6[0x000030bc] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 14:12:14 T#6[0x000030bc] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:12:14 T#6[0x000030bc] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:14:09 T#2[0x00000aac] INFO  - Autosaving starts
+03-06-2019 14:14:09 T#2[0x00000aac] INFO  - Autosaving finished
+03-06-2019 14:14:11 T#2[0x00000aac] INFO  - Vision Engine terminating
+03-06-2019 14:14:11 T#2[0x00000aac] INFO  - Beginning application shutdown
+03-06-2019 14:14:11 T#2[0x00000aac] INFO  - Application shutdown succeeded
+03-06-2019 14:14:13 T#2[0x0000451c] INFO  - Beginning application initialization
+03-06-2019 14:14:15 T#2[0x0000451c] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 14:14:17 T#2[0x0000451c] INFO  - Load starts
+03-06-2019 14:14:17 T#2[0x0000451c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 14:14:17 T#2[0x0000451c] INFO  - Load finished
+03-06-2019 14:14:17 T#2[0x0000451c] INFO  - Application initialization succeeded
+03-06-2019 14:14:33 T#2[0x00002170] INFO  - Beginning application initialization
+03-06-2019 14:14:35 T#2[0x00002170] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 14:14:36 T#2[0x00002170] INFO  - Load starts
+03-06-2019 14:14:36 T#2[0x00002170] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 14:14:36 T#2[0x00002170] INFO  - Load finished
+03-06-2019 14:14:36 T#2[0x00002170] INFO  - Application initialization succeeded
+03-06-2019 14:14:41 T#2[0x00002170] INFO  - Vision Engine terminating
+03-06-2019 14:14:41 T#2[0x00002170] INFO  - Beginning application shutdown
+03-06-2019 14:14:41 T#2[0x00002170] INFO  - Application shutdown succeeded
+03-06-2019 14:17:07 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 14:17:07 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 14:17:16 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 14:17:16 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 14:30:49 T#6[0x00000500] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 14:30:49 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 7) : Error #206 in "scriptA" at line #7. Error: Internal error setting variable - Main : scriptA
+03-06-2019 14:30:49 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:30:49 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:34:17 T#2[0x0000451c] INFO  - Autosaving starts
+03-06-2019 14:34:17 T#2[0x0000451c] INFO  - Autosaving finished
+03-06-2019 14:35:00 T#6[0x00000500] ERROR - Ordenados : no such variable. [Thrown from .\JavaScript\JsCwVarColl.cpp at line 281] - in file: .\JavaScript\JsCwVarColl.cpp at line #88
+03-06-2019 14:35:00 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 12) : Error #206 in "scriptA" at line #12. Error: Internal error getting variable - Main : scriptA
+03-06-2019 14:35:00 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:35:00 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:35:39 T#6[0x00000500] ERROR - Ordenados : no such variable. [Thrown from .\JavaScript\JsCwVarColl.cpp at line 281] - in file: .\JavaScript\JsCwVarColl.cpp at line #88
+03-06-2019 14:35:58 T#6[0x00000500] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 14:35:58 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 15) : Error #206 in "scriptA" at line #15. Error: Internal error setting variable - Main : scriptA
+03-06-2019 14:35:58 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:35:58 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:36:03 T#6[0x00000500] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 14:38:22 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 14) : Error #222 in "scriptA" at line #14. TypeError: Ordenados is undefined - Main : scriptA
+03-06-2019 14:38:22 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 14:38:22 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 14:56:39 T#2[0x0000451c] INFO  - Autosaving starts
+03-06-2019 14:56:39 T#2[0x0000451c] INFO  - Autosaving finished
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 12) : Error #125 in "scriptA" at line #12. SyntaxError: invalid label - Main : scriptA
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 12) : Error #125 in "scriptA" at line #12. SyntaxError: invalid label - Main : scriptA
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:09:23 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:14:17 T#2[0x0000451c] INFO  - Autosaving starts
+03-06-2019 15:14:17 T#2[0x0000451c] INFO  - Autosaving finished
+03-06-2019 15:26:04 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 15:26:04 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 15:36:17 T#2[0x0000451c] INFO  - Autosaving starts
+03-06-2019 15:36:17 T#2[0x0000451c] INFO  - Autosaving finished
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 22) : Error #22 in "scriptA" at line #22. TypeError: false is not a function - Main : scriptA
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 22) : Error #22 in "scriptA" at line #22. TypeError: false is not a function - Main : scriptA
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:43:32 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:43:33 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 22) : Error #22 in "scriptA" at line #22. TypeError: false is not a function - Main : scriptA
+03-06-2019 15:43:33 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:43:33 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:52:46 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 15:52:46 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 15:52:47 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 15:52:47 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 15:57:31 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 15:57:31 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 15:57:51 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 28) : Error #133 in "scriptA" at line #28. SyntaxError: syntax error - Main : scriptA
+03-06-2019 15:57:51 T#6[0x00000500] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 15:57:51 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:57:51 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:57:52 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 28) : Error #133 in "scriptA" at line #28. SyntaxError: syntax error - Main : scriptA
+03-06-2019 15:57:52 T#6[0x00000500] ERROR - Null script [Thrown from .\JavaScript\JsFront.cpp at line 452]
+03-06-2019 15:57:52 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:57:52 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:59:08 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 20) : Error #206 in "scriptA" at line #20. Error: Invalid index: negative value - Main : scriptA
+03-06-2019 15:59:08 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:59:08 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:59:09 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 20) : Error #206 in "scriptA" at line #20. Error: Invalid index: negative value - Main : scriptA
+03-06-2019 15:59:09 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:59:09 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 20) : Error #206 in "scriptA" at line #20. Error: Invalid index: negative value - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Script - scriptA (line 20) : Error #206 in "scriptA" at line #20. Error: Invalid index: negative value - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Executor - Script error detected in scriptA - Main : scriptA
+03-06-2019 15:59:10 T#6[0x00000500] ERROR - Monitor: Executor - Halting on error - Main : scriptA
+03-06-2019 16:03:51 T#2[0x0000451c] INFO  - Saving starts
+03-06-2019 16:03:51 T#2[0x0000451c] INFO  - Saving finished
+03-06-2019 16:03:51 T#2[0x0000451c] INFO  - Vision Engine terminating
+03-06-2019 16:03:51 T#2[0x0000451c] INFO  - Beginning application shutdown
+03-06-2019 16:03:51 T#2[0x0000451c] INFO  - Application shutdown succeeded
+03-06-2019 16:04:05 T#2[0x000030d4] INFO  - Beginning application initialization
+03-06-2019 16:04:06 T#2[0x000030d4] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:04:08 T#2[0x000030d4] INFO  - Load starts
+03-06-2019 16:04:08 T#2[0x000030d4] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:04:08 T#2[0x000030d4] INFO  - Load finished
+03-06-2019 16:04:08 T#2[0x000030d4] INFO  - Application initialization succeeded
+03-06-2019 16:04:46 T#2[0x000030d4] INFO  - Vision Engine terminating
+03-06-2019 16:04:46 T#2[0x000030d4] INFO  - Beginning application shutdown
+03-06-2019 16:04:46 T#2[0x000030d4] INFO  - Application shutdown succeeded
+03-06-2019 16:04:48 T#2[0x00002ce4] INFO  - Beginning application initialization
+03-06-2019 16:04:50 T#2[0x00002ce4] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:04:52 T#2[0x00002ce4] INFO  - Load starts
+03-06-2019 16:04:52 T#2[0x00002ce4] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:04:52 T#2[0x00002ce4] INFO  - Load finished
+03-06-2019 16:04:52 T#2[0x00002ce4] INFO  - Application initialization succeeded
+03-06-2019 16:05:19 T#2[0x00002ce4] INFO  - Vision Engine terminating
+03-06-2019 16:05:19 T#2[0x00002ce4] INFO  - Beginning application shutdown
+03-06-2019 16:05:19 T#2[0x00002ce4] INFO  - Application shutdown succeeded
+03-06-2019 16:05:22 T#2[0x00001ba0] INFO  - Beginning application initialization
+03-06-2019 16:05:23 T#2[0x00001ba0] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:05:25 T#2[0x00001ba0] INFO  - Load starts
+03-06-2019 16:05:25 T#2[0x00001ba0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:05:25 T#2[0x00001ba0] INFO  - Load finished
+03-06-2019 16:05:25 T#2[0x00001ba0] INFO  - Application initialization succeeded
+03-06-2019 16:05:39 T#2[0x00001ba0] INFO  - Vision Engine terminating
+03-06-2019 16:05:39 T#2[0x00001ba0] INFO  - Beginning application shutdown
+03-06-2019 16:05:39 T#2[0x00001ba0] INFO  - Application shutdown succeeded
+03-06-2019 16:05:42 T#2[0x00002f10] INFO  - Beginning application initialization
+03-06-2019 16:05:44 T#2[0x00002f10] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:05:45 T#2[0x00002f10] INFO  - Load starts
+03-06-2019 16:05:45 T#2[0x00002f10] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:05:45 T#2[0x00002f10] INFO  - Load finished
+03-06-2019 16:05:45 T#2[0x00002f10] INFO  - Application initialization succeeded
+03-06-2019 16:06:16 T#2[0x00002f10] INFO  - Vision Engine terminating
+03-06-2019 16:06:16 T#2[0x00002f10] INFO  - Beginning application shutdown
+03-06-2019 16:06:16 T#2[0x00002f10] INFO  - Application shutdown succeeded
+03-06-2019 16:06:18 T#2[0x00004bc0] INFO  - Beginning application initialization
+03-06-2019 16:06:19 T#2[0x00004bc0] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:06:21 T#2[0x00004bc0] INFO  - Load starts
+03-06-2019 16:06:21 T#2[0x00004bc0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:06:21 T#2[0x00004bc0] INFO  - Load finished
+03-06-2019 16:06:21 T#2[0x00004bc0] INFO  - Application initialization succeeded
+03-06-2019 16:06:26 T#2[0x00004bc0] INFO  - Vision Engine terminating
+03-06-2019 16:06:26 T#2[0x00004bc0] INFO  - Beginning application shutdown
+03-06-2019 16:06:26 T#2[0x00004bc0] INFO  - Application shutdown succeeded
+03-06-2019 16:06:33 T#2[0x00002934] INFO  - Beginning application initialization
+03-06-2019 16:06:34 T#2[0x00002934] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:06:35 T#2[0x00002934] INFO  - Load starts
+03-06-2019 16:06:35 T#2[0x00002934] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:06:35 T#2[0x00002934] INFO  - Load finished
+03-06-2019 16:06:36 T#2[0x00002934] INFO  - Application initialization succeeded
+03-06-2019 16:06:56 T#2[0x00002934] INFO  - Vision Engine terminating
+03-06-2019 16:06:56 T#2[0x00002934] INFO  - Beginning application shutdown
+03-06-2019 16:06:56 T#2[0x00002934] INFO  - Application shutdown succeeded
+03-06-2019 16:06:58 T#2[0x000013f0] INFO  - Beginning application initialization
+03-06-2019 16:06:59 T#2[0x000013f0] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 16:07:01 T#2[0x000013f0] INFO  - Load starts
+03-06-2019 16:07:01 T#2[0x000013f0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 16:07:01 T#2[0x000013f0] INFO  - Load finished
+03-06-2019 16:07:01 T#2[0x000013f0] INFO  - Application initialization succeeded
+03-06-2019 16:07:09 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 16:07:09 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 16:27:18 T#2[0x000013f0] INFO  - Autosaving starts
+03-06-2019 16:27:18 T#2[0x000013f0] INFO  - Autosaving finished
+03-06-2019 16:32:51 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 16:32:51 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 16:32:59 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 16:32:59 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 16:45:13 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 16:45:13 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 16:45:22 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 16:45:22 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 16:47:02 T#2[0x000013f0] INFO  - Autosaving starts
+03-06-2019 16:47:02 T#2[0x000013f0] INFO  - Autosaving finished
+03-06-2019 17:10:39 T#2[0x000013f0] INFO  - Autosaving starts
+03-06-2019 17:10:39 T#2[0x000013f0] INFO  - Autosaving finished
+03-06-2019 17:14:22 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:22 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:24 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:25 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:25 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:25 T#2[0x000013f0] INFO  - Saving starts
+03-06-2019 17:14:25 T#2[0x000013f0] INFO  - Saving finished
+03-06-2019 17:14:26 T#2[0x000013f0] INFO  - Vision Engine terminating
+03-06-2019 17:14:26 T#2[0x000013f0] INFO  - Beginning application shutdown
+03-06-2019 17:14:26 T#2[0x000013f0] INFO  - Application shutdown succeeded
+03-06-2019 17:14:38 T#2[0x00003738] INFO  - Beginning application initialization
+03-06-2019 17:14:39 T#2[0x00003738] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 17:14:41 T#2[0x00003738] INFO  - Load starts
+03-06-2019 17:14:41 T#2[0x00003738] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 17:14:41 T#2[0x00003738] INFO  - Load finished
+03-06-2019 17:14:41 T#2[0x00003738] INFO  - Application initialization succeeded
+03-06-2019 17:18:03 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:18:03 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:31:29 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:31:29 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:36:27 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:36:27 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:47 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:47 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:48 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:38:49 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:26 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:26 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:26 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:26 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:39:27 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:29 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:29 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:30 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:40:31 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:40:31 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:49:51 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:49:51 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:50:09 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:50:09 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:51:31 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:51:31 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:52:32 T#2[0x00003738] INFO  - Saving starts
+03-06-2019 17:52:32 T#2[0x00003738] INFO  - Saving finished
+03-06-2019 17:57:51 T#2[0x00003738] INFO  - Vision Engine terminating
+03-06-2019 17:57:51 T#2[0x00003738] INFO  - Beginning application shutdown
+03-06-2019 17:57:51 T#2[0x00003738] INFO  - Application shutdown succeeded
+03-06-2019 18:15:17 T#2[0x00004bc0] INFO  - Beginning application initialization
+03-06-2019 18:15:18 T#2[0x00004bc0] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 18:15:20 T#2[0x00004bc0] INFO  - Load starts
+03-06-2019 18:15:20 T#2[0x00004bc0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 18:15:20 T#2[0x00004bc0] INFO  - Load finished
+03-06-2019 18:15:20 T#2[0x00004bc0] INFO  - Application initialization succeeded
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 22) : Error #222 in "Code" at line #22. TypeError: Vars.Centroids[Vars.MinimumDistance] is undefined - Main : Code
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 22) : Error #222 in "Code" at line #22. TypeError: Vars.Centroids[Vars.MinimumDistance] is undefined - Main : Code
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:16:57 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:21:26 T#6[0x00003fbc] ERROR - The source value is not a number [Thrown from .\JavaScript\Jsval.cpp at line 431] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:20 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:20 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 7) : Error #206 in "Code" at line #7. Error: Internal error setting variable - Main : Code
+03-06-2019 18:29:20 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:29:20 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 7) : Error #206 in "Code" at line #7. Error: Internal error setting variable - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 7) : Error #206 in "Code" at line #7. Error: Internal error setting variable - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 7) : Error #206 in "Code" at line #7. Error: Internal error setting variable - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Script - Code (line 7) : Error #206 in "Code" at line #7. Error: Internal error setting variable - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Script error detected in Code - Main : Code
+03-06-2019 18:29:21 T#6[0x00003fbc] ERROR - Monitor: Executor - Halting on error - Main : Code
+03-06-2019 18:29:25 T#6[0x00003fbc] ERROR - Invalid type for GetArraySize(). [Thrown from .\JavaScript\Jsval.cpp at line 604] - in file: .\JavaScript\JsCwVarColl.cpp at line #111
+03-06-2019 18:38:58 T#2[0x00004bc0] INFO  - Autosaving starts
+03-06-2019 18:38:58 T#2[0x00004bc0] INFO  - Autosaving finished
+03-06-2019 18:45:11 T#2[0x00004bc0] INFO  - Saving starts
+03-06-2019 18:45:11 T#2[0x00004bc0] INFO  - Saving finished
+03-06-2019 19:01:39 T#2[0x00004bc0] INFO  - Saving starts
+03-06-2019 19:01:39 T#2[0x00004bc0] INFO  - Saving finished
+03-06-2019 19:01:39 T#2[0x00004bc0] INFO  - Vision Engine terminating
+03-06-2019 19:01:39 T#2[0x00004bc0] INFO  - Beginning application shutdown
+03-06-2019 19:01:39 T#2[0x00004bc0] INFO  - Application shutdown succeeded
+03-06-2019 19:01:44 T#2[0x000029c0] INFO  - Beginning application initialization
+03-06-2019 19:01:45 T#2[0x000029c0] INFO  - Vision Engine version: 7020102 starting
+03-06-2019 19:01:47 T#2[0x000029c0] INFO  - Load starts
+03-06-2019 19:01:47 T#2[0x000029c0] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-06-2019 19:01:47 T#2[0x000029c0] INFO  - Load finished
+03-06-2019 19:01:47 T#2[0x000029c0] INFO  - Application initialization succeeded
+03-06-2019 19:02:29 T#2[0x000029c0] INFO  - Saving starts
+03-06-2019 19:02:29 T#2[0x000029c0] INFO  - Saving finished
+03-06-2019 19:06:55 T#2[0x000029c0] INFO  - Saving starts
+03-06-2019 19:06:55 T#2[0x000029c0] INFO  - Saving finished
+03-06-2019 19:06:56 T#2[0x000029c0] INFO  - Vision Engine terminating
+03-06-2019 19:06:56 T#2[0x000029c0] INFO  - Beginning application shutdown
+03-06-2019 19:06:56 T#2[0x000029c0] INFO  - Application shutdown succeeded
+03-07-2019 10:14:19 T#2[0x00002058] INFO  - Beginning application initialization
+03-07-2019 10:14:20 T#2[0x00002058] INFO  - Vision Engine version: 7020102 starting
+03-07-2019 10:14:24 T#2[0x00002058] INFO  - Load starts
+03-07-2019 10:14:24 T#2[0x00002058] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-07-2019 10:14:25 T#2[0x00002058] INFO  - Load finished
+03-07-2019 10:14:25 T#2[0x00002058] INFO  - Application initialization succeeded
+03-07-2019 10:15:30 T#2[0x00002058] INFO  - Saving starts
+03-07-2019 10:15:30 T#2[0x00002058] INFO  - Saving finished
+03-07-2019 10:15:30 T#2[0x00002058] INFO  - Vision Engine terminating
+03-07-2019 10:15:30 T#2[0x00002058] INFO  - Beginning application shutdown
+03-07-2019 10:15:30 T#2[0x00002058] INFO  - Application shutdown succeeded

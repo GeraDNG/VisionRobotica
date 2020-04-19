@@ -1,0 +1,125 @@
+04-04-2019 10:12:05 T#2[0x000035e8] INFO  - Beginning application initialization
+04-04-2019 10:12:06 T#2[0x000035e8] INFO  - Vision Engine version: 7020102 starting
+04-04-2019 10:12:08 T#2[0x000035e8] INFO  - Load starts
+04-04-2019 10:12:08 T#2[0x000035e8] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-04-2019 10:12:08 T#2[0x000035e8] INFO  - Load finished
+04-04-2019 10:12:08 T#2[0x000035e8] INFO  - Application initialization succeeded
+04-04-2019 11:38:37 T#2[0x000035e8] INFO  - Vision Engine terminating
+04-04-2019 11:38:37 T#2[0x000035e8] INFO  - Beginning application shutdown
+04-04-2019 11:38:37 T#2[0x000035e8] INFO  - Application shutdown succeeded
+04-04-2019 14:35:13 T#2[0x00005590] INFO  - Beginning application initialization
+04-04-2019 14:35:15 T#2[0x00005590] INFO  - Vision Engine version: 7020102 starting
+04-04-2019 14:35:17 T#2[0x00005590] INFO  - Load starts
+04-04-2019 14:35:17 T#2[0x00005590] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-04-2019 14:35:17 T#2[0x00005590] INFO  - Load finished
+04-04-2019 14:35:17 T#2[0x00005590] INFO  - Application initialization succeeded
+04-04-2019 14:41:04 T#2[0x00005590] INFO  - Saving starts
+04-04-2019 14:41:04 T#2[0x00005590] INFO  - Saving finished
+04-04-2019 14:52:52 T#2[0x00001a38] INFO  - Beginning application initialization
+04-04-2019 14:52:54 T#2[0x00001a38] INFO  - Vision Engine version: 7020102 starting
+04-04-2019 14:52:56 T#2[0x00001a38] INFO  - Load starts
+04-04-2019 14:52:56 T#2[0x00001a38] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-04-2019 14:52:56 T#2[0x00001a38] ERROR - Unable to load image: "C:\ProyectsRoboticVision\P01_RoboticArm\0014.bmp" [131077u]
+04-04-2019 14:52:56 T#2[0x00001a38] ERROR - Monitor: imgA - Acquisition failed
+04-04-2019 14:52:56 T#2[0x00001a38] INFO  - Load finished
+04-04-2019 14:52:56 T#2[0x00001a38] INFO  - Application initialization succeeded
+04-04-2019 14:53:00 T#6[0x00001d10] ERROR - Unable to load image: "C:\ProyectsRoboticVision\P01_RoboticArm\0000.bmp" [131077u]
+04-04-2019 14:53:00 T#6[0x00001d10] ERROR - Monitor: imgA - Acquisition failed - Main : imgA
+04-04-2019 14:53:00 T#6[0x00001d10] ERROR - Monitor: Executor - Error detected in imgA - Main : imgA
+04-04-2019 14:53:00 T#6[0x00001d10] ERROR - Monitor: Executor - Halting on error - Main : imgA
+04-04-2019 14:53:24 T#2[0x00001a38] INFO  - Vision Engine terminating
+04-04-2019 14:53:24 T#2[0x00001a38] INFO  - Beginning application shutdown
+04-04-2019 14:53:24 T#2[0x00001a38] INFO  - Application shutdown succeeded
+04-04-2019 14:53:27 T#6[0x00002754] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string Home
+04-04-2019 15:02:04 T#2[0x00004b1c] INFO  - Beginning application initialization
+04-04-2019 15:02:05 T#2[0x00004b1c] INFO  - Vision Engine version: 7020102 starting
+04-04-2019 15:02:07 T#2[0x00004b1c] INFO  - Load starts
+04-04-2019 15:02:07 T#2[0x00004b1c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-04-2019 15:02:07 T#2[0x00004b1c] INFO  - Load finished
+04-04-2019 15:02:07 T#2[0x00004b1c] INFO  - Application initialization succeeded
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving starts
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving finished
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving starts
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving finished
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving starts
+04-04-2019 15:02:49 T#2[0x00004b1c] INFO  - Saving finished
+04-04-2019 15:02:50 T#2[0x00004b1c] INFO  - Saving starts
+04-04-2019 15:02:50 T#2[0x00004b1c] INFO  - Saving finished
+04-04-2019 15:03:42 T#2[0x00004a24] INFO  - Beginning application initialization
+04-04-2019 15:03:44 T#2[0x00004a24] INFO  - Vision Engine version: 7020102 starting
+04-04-2019 15:03:46 T#2[0x00004a24] INFO  - Load starts
+04-04-2019 15:03:46 T#2[0x00004a24] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+04-04-2019 15:03:46 T#2[0x00004a24] INFO  - Load finished
+04-04-2019 15:03:46 T#2[0x00004a24] INFO  - Application initialization succeeded
+04-04-2019 15:04:12 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:12 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:13 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:13 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:16 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:16 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:34 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:04:35 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:13 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:14 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:15 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:16 T#6[0x000042c0] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string Home
+04-04-2019 15:06:25 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:06:25 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:06:42 T#2[0x00004a24] ERROR - Unable to load image: "C:\ProyectsRoboticVision\P01_RoboticArm\Images Leo\0017.bmp" [131077u]
+04-04-2019 15:06:42 T#2[0x00004a24] ERROR - Monitor: imgA - Acquisition failed
+04-04-2019 15:07:22 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:22 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:22 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:22 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:07:23 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:08:39 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:08:39 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:10:29 T#6[0x000042c0] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string Home
+04-04-2019 15:10:34 T#6[0x000042c0] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string MoverToPoint
+04-04-2019 15:10:39 T#6[0x000042c0] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string CloseGripper
+04-04-2019 15:10:44 T#6[0x000042c0] ERROR - Monitor: Serial IO - Invalid port index detected - Main : Send string Rise
+04-04-2019 15:13:37 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:13:37 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:13:37 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:13:38 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:14:40 T#2[0x00004a24] INFO  - Saving starts
+04-04-2019 15:14:40 T#2[0x00004a24] INFO  - Saving finished
+04-04-2019 15:14:40 T#2[0x00004a24] INFO  - Vision Engine terminating
+04-04-2019 15:14:40 T#2[0x00004a24] INFO  - Beginning application shutdown
+04-04-2019 15:14:40 T#2[0x00004a24] INFO  - Application shutdown succeeded

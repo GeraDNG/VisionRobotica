@@ -1,0 +1,11 @@
+03-28-2019 11:32:27 T#2[0x00007924] INFO  - Beginning application initialization
+03-28-2019 11:32:28 T#2[0x00007924] INFO  - Vision Engine version: 7020102 starting
+03-28-2019 11:32:33 T#2[0x00007924] INFO  - Load starts
+03-28-2019 11:32:33 T#2[0x00007924] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+03-28-2019 11:32:33 T#2[0x00007924] INFO  - Load finished
+03-28-2019 11:32:33 T#2[0x00007924] INFO  - Application initialization succeeded
+03-28-2019 11:33:32 T#2[0x00007924] INFO  - Saving starts
+03-28-2019 11:33:32 T#2[0x00007924] INFO  - Saving finished
+03-28-2019 11:33:33 T#2[0x00007924] INFO  - Vision Engine terminating
+03-28-2019 11:33:33 T#2[0x00007924] INFO  - Beginning application shutdown
+03-28-2019 11:33:33 T#2[0x00007924] INFO  - Application shutdown succeeded

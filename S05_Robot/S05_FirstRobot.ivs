@@ -1,0 +1,768 @@
+<?xml version="1.0"?>
+<!--  Monday, March 25, 2019 11:33:46  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Home"
+	RtType="1"
+	RtId="136952800"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P1500 #1 P1500 #2 P1500 #3 P1500 #4 P1500 #5 P1500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="MoverAPieza"
+	RtType="1"
+	RtId="136953152"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P1620 #1 P1330 #2 P1620 #3 P880 #4 P1500 #5 P1500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="TomarPieza"
+	RtType="1"
+	RtId="136956496"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#5 P2000 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="AlzarPieza"
+	RtType="1"
+	RtId="136953856"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#1 P1770 T3000\x0D"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="136786720"
+/>
+<FileIo
+	RtId="171165216"
+/>
+<FileIo
+	RtId="171165744"
+/>
+<FileIo
+	RtId="171166272"
+/>
+<FileIo
+	RtId="171166800"
+/>
+<FileIo
+	RtId="171167328"
+/>
+<FileIo
+	RtId="171167856"
+/>
+<FileIo
+	RtId="171168384"
+/>
+<FileIo
+	RtId="171967968"
+/>
+<FileIo
+	RtId="171968496"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="171257200"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="173094880"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="4"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="1"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="662"
+	WndPosBottom="557"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="bmp"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="jpg"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="172678736"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="173175168"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="173176000"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	File=".\images\default.bmp"
+/>
+<Image
+	Width="640"
+	Height="480"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="136952624"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="172366256"
+	ParentInstr="173094880"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="173094880"
+/>
+<Instruction
+	RtName="Send string A"
+	RtType="5"
+	RtId="172362720"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="172012784"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</id0>
+<id1
+	RtId="172014464"
+	Connected="136952800">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="172017344"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="173195184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="173237056"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep"
+	RtType="5"
+	RtId="171094288"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string A_A"
+	RtType="5"
+	RtId="172362992"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="173222096"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</id0>
+<id1
+	RtId="173222336"
+	Connected="136953152">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="173217776"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="173233248"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="173234080"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_A"
+	RtType="5"
+	RtId="171099568"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string A_B"
+	RtType="5"
+	RtId="172365984"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="173223776"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</id0>
+<id1
+	RtId="173222576"
+	Connected="136956496">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="173217536"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="173234912"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="173235744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_B"
+	RtType="5"
+	RtId="171094992"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string A_C"
+	RtType="5"
+	RtId="172362448"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="173218016"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="5"
+/>
+</id0>
+<id1
+	RtId="173221856"
+	Connected="136953856">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="173221616"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="173225424"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="173226256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+<Annot
+	Type="0"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text=""
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C"
+	RtType="5"
+	RtId="171096752"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="172362176"
+	ParentInstr="173094880"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="173094880"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="171257200"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="171257200">
+<Children>
+<Child
+	Id="173094880"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="173094880">
+<Children>
+<Child
+	Id="172366256"
+/>
+<Child
+	Id="172362720"
+/>
+<Child
+	Id="171094288"
+/>
+<Child
+	Id="172362992"
+/>
+<Child
+	Id="171099568"
+/>
+<Child
+	Id="172365984"
+/>
+<Child
+	Id="171094992"
+/>
+<Child
+	Id="172362448"
+/>
+<Child
+	Id="171096752"
+/>
+<Child
+	Id="172362176"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>
