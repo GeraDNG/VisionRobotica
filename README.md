@@ -10,3 +10,5 @@ Las carpetas, según su inicial, corresponden a:
   - H: Tareas.
   - P: Proyecto.
   - Bebop: Archivos (python) sobre el Drone Bebop.
+  
+En algunos casos, por ejemplo el Proyecto Final, se presentan documentos PDF con las instrucciones para implementar el proyecto u otra información sobre el código realizado.
