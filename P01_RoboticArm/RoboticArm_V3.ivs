@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!--  Thursday, April 04, 2019 15:14:40  -->
+<!--  Wednesday, January 01, 2003 06:18:14  -->
 
 <Investigation
-	Version="7020102"
+	Version="7010501"
 	Lock="0"
 	Pwd=""
 	SpcReportEveryNRuns="0"
@@ -11,27 +11,27 @@
 <Var
 	RtName="Home"
 	RtType="1"
-	RtId="167492208"
+	RtId="244097144"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#0 P1500 #1 P1500 #2 P1500 #3 P1500 #4 P1500 #5 P1500 T3000\x0D"
+	Val="#0 P1500 #1 P1500 #2 P1500 #3 P1500 #4 P1500 #5 P1250 T3000\x0D"
 />
 </Var>
 <Var
 	RtName="MoveToPoint"
 	RtType="1"
-	RtId="167492560"
+	RtId="244098840"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#0 P1305 #1 P1240 #2 P1570 #3 P800 #4 P1700 T3000\x0D"
+	Val="#0 P1300 #1 P1250 #2 P1570 #3 P800 #4 P1500 T5000\x0D"
 />
 </Var>
 <Var
 	RtName="CloseGripper"
 	RtType="1"
-	RtId="167494848"
+	RtId="244099536"
 	ValType="259">
 <Obj
 	Type="4"
@@ -41,7 +41,7 @@
 <Var
 	RtName="Rise"
 	RtType="1"
-	RtId="167495024"
+	RtId="244134448"
 	ValType="259">
 <Obj
 	Type="4"
@@ -51,78 +51,92 @@
 <Var
 	RtName="Circle"
 	RtType="1"
-	RtId="167493264"
+	RtId="244134552"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#0 P1005 #1 P1280 #2 P1590 #3 P760 #4 P1700 T3000\x0D"
-/>
-</Var>
-<Var
-	RtName="Triangle"
-	RtType="1"
-	RtId="167493088"
-	ValType="259">
-<Obj
-	Type="4"
-	Val="#0 P1055 #1 P1250 #2 P1490 #3 P880 #4 P1700 T3000\x0D"
+	Val="#0 P1005 #1 P1280 #2 P1590 #3 P760 T4000\x0D"
 />
 </Var>
 <Var
 	RtName="Square"
 	RtType="1"
-	RtId="167491680"
+	RtId="244010488"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#0 P895 #1 P1300 #2 P1580 #3 P880 #4 P1850 T3000\x0D"
+	Val="#0 P895 #1 P1300 #2 P1580 #3 P880 T4000\x0D"
+/>
+</Var>
+<Var
+	RtName="Triangle"
+	RtType="1"
+	RtId="244010592"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P1055 #1 P1250 #2 P1490 #3 P880 T4000\x0D"
 />
 </Var>
 <Var
 	RtName="Pentagon"
 	RtType="1"
-	RtId="167491856"
+	RtId="244010696"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#0 P965 #1 P1190 #2 P1420 #3 P910 #4 P1750 T3000\x0D"
+	Val="#0 P950 #1 P1190 #2 P1420 #3 P910 T4000\x0D"
 />
 </Var>
 <Var
 	RtName="OpenGripper"
 	RtType="1"
-	RtId="167498016"
+	RtId="244100520"
 	ValType="259">
 <Obj
 	Type="4"
-	Val="#5 P1500 T1000\0xD"
+	Val="#5 P1500 T2500\x0D"
 />
 </Var>
 <Var
-	RtName="FiguresFounded"
+	RtName="FigureFounded"
 	RtType="1"
-	RtId="274475344"
-	ValType="515">
+	RtId="244100624"
+	ValType="259">
 <Obj
-	Type="4099">
-<Val
-	Size="1"
-	String0="Square"
+	Type="4"
+	Val="Pentagon"
 />
-</Obj>
 </Var>
 <Var
-	RtName="AnglesOfFigures"
+	RtName="Angle"
 	RtType="1"
-	RtId="274479920"
-	ValType="514">
+	RtId="244100728"
+	ValType="258">
 <Obj
-	Type="4098">
-<Val
-	Size="1"
-	Value="-0.0056765138194903352"
+	Type="3"
+	Val="0.59384823804365428"
 />
-</Obj>
+</Var>
+<Var
+	RtName="NewAngle"
+	RtType="1"
+	RtId="244100832"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="1670.1249885559082"
+/>
+</Var>
+<Var
+	RtName="Rotate"
+	RtType="1"
+	RtId="244100936"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#4 P1670.1249885559082 T3000 "
+/>
 </Var>
 </Variables>
 <BgScripts>
@@ -146,40 +160,59 @@
 />
 <FileIoMgr>
 <FileIo
-	RtId="180363136"
+	RtId="244472368"
 />
 <FileIo
-	RtId="180353104"
+	RtId="163556072"
 />
 <FileIo
-	RtId="180353632"
+	RtId="244018744"
 />
 <FileIo
-	RtId="180357328"
+	RtId="243909936"
 />
 <FileIo
-	RtId="180363664"
+	RtId="243910216"
 />
 <FileIo
-	RtId="180354688"
+	RtId="243910512"
 />
 <FileIo
-	RtId="180361552"
+	RtId="243910928"
 />
 <FileIo
-	RtId="180362080"
+	RtId="243911344"
 />
 <FileIo
-	RtId="180362608"
+	RtId="244019552"
 />
 <FileIo
-	RtId="180354160"
+	RtId="244019168"
 />
 </FileIoMgr>
-<SerialIoMgr
+<SerialIoMgr>
+<SerialIo
+	BaudRate="115200"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
 />
-<UdpIoMgr
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
 />
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+</SerialIoMgr>
 <TcpIoMgr
 />
 <ModbusIoMgr
@@ -190,16 +223,11 @@
 />
 <GeFanucMgr
 />
-<HmiIoMgr
-	addr="127.0.0.1"
-	port="5085"
-	run="0"
-/>
 <Subroutines>
 <Sub
 	RtName="Main"
 	RtType="5"
-	RtId="179298160"
+	RtId="244010328"
 	ParentInstr="0"
 	InstrType="2"
 	Collapsed="0"
@@ -214,11 +242,11 @@
 <Instruction
 	RtName="imgA"
 	RtType="5"
-	RtId="180496272"
+	RtId="244113528"
 	ParentInstr="0"
 	InstrType="3"
 	Collapsed="0"
-	ImgSrcType="5"
+	ImgSrcType="1"
 	Calibration="0"
 	RestoreCalibration="0"
 	DisplayGrid="0"
@@ -229,8 +257,8 @@
 	Zoom="0.5"
 	WndPosLeft="0"
 	WndPosTop="0"
-	WndPosRight="662"
-	WndPosBottom="557"
+	WndPosRight="652"
+	WndPosBottom="538"
 	WndPosShowCmd="1"
 	WndPosPtScrollX="0"
 	WndPosPtScrollY="0"
@@ -243,15 +271,6 @@
 	strLogPrefix="imgA-log-"
 	strLogExt="BMP"
 	bLogWrap="1"
-	bFtpLogImages="0"
-	nFtpLogCurIndex="-1"
-	nFtpLogMaxIndex="100"
-	strFtpLogDir="/Public"
-	strFtpLogPrefix="imgA-ftp-log-"
-	strFtpLogExt="JPG"
-	bFtpLogWrap="1"
-	bFtpLogOverlay="0"
-	strFtpLogServer="user:password@ftpServer or ftpServer"
 	bAcqHWTrigger="0"
 	bAcqTimeout="1000"
 	RealBpp="12"
@@ -260,7 +279,7 @@
 	AcqTimeoutNoErrSkipExec="0">
 <Inputs>
 <id0
-	RtId="180130384"
+	RtId="244139144"
 	Connected="0">
 <Obj
 	Type="1"
@@ -270,7 +289,7 @@
 </Inputs>
 <Outputs>
 <id0
-	RtId="181380720"
+	RtId="254471024"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -278,14 +297,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="32.888400018215179"
+	Val="54.957248765975237"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="acq time: 32.89"
+	Text="acq time: 54.96"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -296,7 +315,7 @@
 </Annot>
 </id0>
 <id1
-	RtId="180192304"
+	RtId="254471544"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -325,15 +344,7 @@
 <Params
 />
 <ImgSrc
-	FileSeqDir="..\..\..\ProyectsRoboticVision\P01_RoboticArm\Images Leo"
-	FileSeqPrefix=""
-	FileSeqExt="bmp"
-	FileSeqStartIndex="0"
-	FileSeqEndIndex="-1"
-	FileSeqDelay="30"
-	FileSeqCurrentIndex="19"
-	FileSeqNameFormat="0"
-	SoRtId="180496272"
+	CameraIndex="0"
 />
 <Image
 	Width="1280"
@@ -343,7 +354,7 @@
 <Proxy
 	RtName="[None]"
 	RtType="7"
-	RtId="167498368"
+	RtId="244101040"
 	ValType="1027">
 <Obj
 	Type="10">
@@ -356,38 +367,95 @@
 <Instruction
 	RtName="Begin"
 	RtType="5"
-	RtId="180569904"
-	ParentInstr="180496272"
+	RtId="244503680"
+	ParentInstr="244113528"
 	InstrType="4"
 	Collapsed="0"
-	ParentSo="180496272"
+	ParentSo="244113528"
 />
+<Instruction
+	RtName="Center"
+	RtType="5"
+	RtId="254472696"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="1"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="497"
+	HdrLocY="387"
+	WriteChanges="0"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="244113528"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="1"
+	Value="(492,392)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="1"
+	Value="(492,392)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="254473424"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
 <Instruction
 	RtName="Send string Home"
 	RtType="5"
-	RtId="180565552"
+	RtId="244022024"
 	ParentInstr="0"
 	InstrType="800"
 	Collapsed="1">
 <Inputs>
 <id0
-	RtId="180131824"
+	RtId="244138816"
 	Connected="0">
 <Obj
 	Type="3"
-	Val="5"
+	Val="0"
 />
 </id0>
 <id1
-	RtId="180133744"
-	Connected="167492208">
+	RtId="254473792"
+	Connected="244097144">
 <Obj
 	Type="4"
 	Val=""
 />
 </id1>
 <id2
-	RtId="180134704"
+	RtId="254473960"
 	Connected="0">
 <Obj
 	Type="1"
@@ -397,7 +465,7 @@
 </Inputs>
 <Outputs>
 <id0
-	RtId="180193136"
+	RtId="254474152"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -405,14 +473,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="0"
+	Val="60"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="bytes sent: 0.00"
+	Text="bytes sent: 60.00"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -423,7 +491,7 @@
 </Annot>
 </id0>
 <id1
-	RtId="180193968"
+	RtId="254474816"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -431,14 +499,14 @@
 	Lmark="0">
 <Obj
 	Type="1"
-	Val="0"
+	Val="1"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="result: False"
+	Text="result: True"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -455,11 +523,11 @@
 <Instruction
 	RtName="Sleep"
 	RtType="5"
-	RtId="180656784"
+	RtId="244502368"
 	ParentInstr="0"
 	InstrType="14"
 	Collapsed="0"
-	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(6000);">
 <Inputs
 />
 <Outputs
@@ -468,31 +536,31 @@
 />
 </Instruction>
 <Instruction
-	RtName="Send string MoverToPoint"
+	RtName="Send string MoveToPoint"
 	RtType="5"
-	RtId="180567728"
+	RtId="244057648"
 	ParentInstr="0"
 	InstrType="800"
 	Collapsed="1">
 <Inputs>
 <id0
-	RtId="181570640"
+	RtId="254475504"
 	Connected="0">
 <Obj
 	Type="3"
-	Val="5"
+	Val="0"
 />
 </id0>
 <id1
-	RtId="181568720"
-	Connected="167492560">
+	RtId="254475672"
+	Connected="244098840">
 <Obj
 	Type="4"
 	Val=""
 />
 </id1>
 <id2
-	RtId="181563680"
+	RtId="254475840"
 	Connected="0">
 <Obj
 	Type="1"
@@ -502,7 +570,7 @@
 </Inputs>
 <Outputs>
 <id0
-	RtId="181327024"
+	RtId="254476032"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -510,14 +578,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="0"
+	Val="50"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="bytes sent: 0.00"
+	Text="bytes sent: 50.00"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -528,7 +596,7 @@
 </Annot>
 </id0>
 <id1
-	RtId="181327856"
+	RtId="254476696"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -536,14 +604,14 @@
 	Lmark="0">
 <Obj
 	Type="1"
-	Val="0"
+	Val="1"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="result: False"
+	Text="result: True"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -560,11 +628,11 @@
 <Instruction
 	RtName="Sleep_A"
 	RtType="5"
-	RtId="180658192"
+	RtId="254477432"
 	ParentInstr="0"
 	InstrType="14"
 	Collapsed="0"
-	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(10000);">
 <Inputs
 />
 <Outputs
@@ -575,29 +643,29 @@
 <Instruction
 	RtName="Send string CloseGripper"
 	RtType="5"
-	RtId="180570992"
+	RtId="244175000"
 	ParentInstr="0"
 	InstrType="800"
 	Collapsed="1">
 <Inputs>
 <id0
-	RtId="181569440"
+	RtId="254477648"
 	Connected="0">
 <Obj
 	Type="3"
-	Val="5"
+	Val="0"
 />
 </id0>
 <id1
-	RtId="181566800"
-	Connected="167494848">
+	RtId="254477816"
+	Connected="244099536">
 <Obj
 	Type="4"
 	Val=""
 />
 </id1>
 <id2
-	RtId="181569680"
+	RtId="254477984"
 	Connected="0">
 <Obj
 	Type="1"
@@ -607,7 +675,7 @@
 </Inputs>
 <Outputs>
 <id0
-	RtId="181328688"
+	RtId="254478176"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -615,14 +683,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="0"
+	Val="15"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="bytes sent: 0.00"
+	Text="bytes sent: 15.00"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -633,7 +701,7 @@
 </Annot>
 </id0>
 <id1
-	RtId="181329520"
+	RtId="254478840"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -641,14 +709,14 @@
 	Lmark="0">
 <Obj
 	Type="1"
-	Val="0"
+	Val="1"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="result: False"
+	Text="result: True"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -665,7 +733,7 @@
 <Instruction
 	RtName="Sleep_B"
 	RtType="5"
-	RtId="180653968"
+	RtId="254479576"
 	ParentInstr="0"
 	InstrType="14"
 	Collapsed="0"
@@ -680,29 +748,29 @@
 <Instruction
 	RtName="Send string Rise"
 	RtType="5"
-	RtId="180566368"
+	RtId="244176480"
 	ParentInstr="0"
 	InstrType="800"
 	Collapsed="1">
 <Inputs>
 <id0
-	RtId="181568960"
+	RtId="254479792"
 	Connected="0">
 <Obj
 	Type="3"
-	Val="5"
+	Val="0"
 />
 </id0>
 <id1
-	RtId="181567040"
-	Connected="167495024">
+	RtId="254479960"
+	Connected="244134448">
 <Obj
 	Type="4"
 	Val=""
 />
 </id1>
 <id2
-	RtId="181570880"
+	RtId="254480128"
 	Connected="0">
 <Obj
 	Type="1"
@@ -712,7 +780,7 @@
 </Inputs>
 <Outputs>
 <id0
-	RtId="181330352"
+	RtId="254480320"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -720,14 +788,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="0"
+	Val="51"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="bytes sent: 0.00"
+	Text="bytes sent: 51.00"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -738,7 +806,7 @@
 </Annot>
 </id0>
 <id1
-	RtId="181331184"
+	RtId="254480984"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -746,14 +814,14 @@
 	Lmark="0">
 <Obj
 	Type="1"
-	Val="0"
+	Val="1"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="result: False"
+	Text="result: True"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -770,11 +838,11 @@
 <Instruction
 	RtName="Sleep_C"
 	RtType="5"
-	RtId="180656432"
+	RtId="254481720"
 	ParentInstr="0"
 	InstrType="14"
 	Collapsed="0"
-	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(6000);">
 <Inputs
 />
 <Outputs
@@ -785,7 +853,7 @@
 <Instruction
 	RtName="ROI"
 	RtType="5"
-	RtId="181332016"
+	RtId="254481936"
 	ParentInstr="0"
 	InstrType="1"
 	Collapsed="1"
@@ -797,21 +865,21 @@
 	HdrLocked="0"
 	HdrLine="0"
 	HdrAnchorCoord="0"
-	HdrLocX="289"
-	HdrLocY="567"
+	HdrLocX="347"
+	HdrLocY="239"
 	WriteChanges="1"
 	Locked="0"
-	Selected="1"
+	Selected="0"
 	Tolerance="0"
 	Cond="FALSE"
-	RoiSoRtId="180496272"
+	RoiSoRtId="244113528"
 	RoiAlignId="0">
 <Coords
 	Rotation="0"
 	Elements="0">
 <Val
 	Size="2"
-	Value="(284,572),(486,782)"
+	Value="(342,244),(652,516)"
 />
 </Coords>
 <OrgCoords
@@ -819,7 +887,7 @@
 	Elements="0">
 <Val
 	Size="2"
-	Value="(284,572),(486,782)"
+	Value="(342,244),(652,516)"
 />
 </OrgCoords>
 <Preprocessors
@@ -829,18 +897,18 @@
 	AlgIndex="0"
 	RtName="algA"
 	RtType="5"
-	RtId="180956384"
-	ParentInstr="181332016"
+	RtId="254472368"
+	ParentInstr="254481936"
 	InstrType="19"
 	Collapsed="0"
-	SoRtId="181332016"
+	SoRtId="254481936"
 	Tag="RoboticArm_V3-ROI-algA"
 	ImgProcId="_CIpeSearchEdge_">
 <Inputs
 />
 <Outputs>
 <id0
-	RtId="181333264"
+	RtId="254483176"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -866,22 +934,22 @@
 </Annot>
 </id0>
 <id1
-	RtId="181334096"
-	ConnVar="0"
+	RtId="254483696"
+	ConnVar="244100624"
 	Watch="0"
 	SpcOn="0"
 	Hidden="0"
 	Lmark="0">
 <Obj
 	Type="4"
-	Val="Square"
+	Val="Pentagon"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="name: Square"
+	Text="name: Pentagon"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -892,7 +960,7 @@
 </Annot>
 </id1>
 <id2
-	RtId="181571568"
+	RtId="254484216"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -900,25 +968,25 @@
 	Lmark="0">
 <Obj
 	Type="6"
-	Val="384.65653991699219,678.60619354248047"
+	Val="500.01559448242187,399.01055908203125"
 />
 <Annot
 	Type="1"
 	X="521"
 	Y="517"
 	Clr="0"
-	Text="location: (384.66, 678.61)"
+	Text="location: (500.02, 399.01)"
 	Display="1"
 	Highlight="0"
-	So="180496272">
+	So="244113528">
 <Coord
 	Size="2"
-	Value="384.657,678.606"
+	Value="500.016,399.011"
 />
 </Annot>
 </id2>
 <id3
-	RtId="181572400"
+	RtId="254484880"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -926,14 +994,14 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="99.845260620117188"
+	Val="96.554634094238281"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="score: 99.85"
+	Text="score: 96.55"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -944,22 +1012,22 @@
 </Annot>
 </id3>
 <id4
-	RtId="181573232"
-	ConnVar="0"
+	RtId="254485568"
+	ConnVar="244100728"
 	Watch="0"
 	SpcOn="0"
 	Hidden="0"
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="-0.0056765138194903352"
+	Val="0.59384823804365428"
 />
 <Annot
 	Type="6"
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="angle: -0.01"
+	Text="angle: 0.59"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -970,7 +1038,7 @@
 </Annot>
 </id4>
 <id5
-	RtId="181574064"
+	RtId="254486208"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -978,7 +1046,7 @@
 	Lmark="0">
 <Obj
 	Type="3"
-	Val="0.99926203489303589"
+	Val="1.0006753206253052"
 />
 <Annot
 	Type="6"
@@ -996,7 +1064,7 @@
 </Annot>
 </id5>
 <id6
-	RtId="181574976"
+	RtId="254486848"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -1004,25 +1072,25 @@
 	Lmark="0">
 <Obj
 	Type="6"
-	Val="283.15817522016505,679.18235660088169"
+	Val="415.89305199292244,342.21577195238035"
 />
 <Annot
 	Type="1"
 	X="419"
 	Y="538"
 	Clr="0"
-	Text="pattern left: (283.16, 679.18)"
+	Text="pattern left: (415.89, 342.22)"
 	Display="1"
 	Highlight="0"
-	So="180496272">
+	So="244113528">
 <Coord
 	Size="2"
-	Value="283.158,679.182"
+	Value="415.893,342.216"
 />
 </Annot>
 </id6>
 <id7
-	RtId="181581632"
+	RtId="254487528"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -1030,26 +1098,26 @@
 	Lmark="0">
 <Obj
 	Type="6"
-	Val="486.15490461381933,678.03003048407925"
+	Val="584.13813697192131,455.80534621168215"
 />
 <Annot
 	Type="1"
 	X="622"
 	Y="513"
 	Clr="0"
-	Text="pattern right: (486.15, 678.03)"
+	Text="pattern right: (584.14, 455.81)"
 	Display="1"
 	Highlight="0"
-	So="180496272">
+	So="244113528">
 <Coord
 	Size="2"
-	Value="486.155,678.03"
+	Value="584.138,455.805"
 />
 </Annot>
 </id7>
 <id8
-	RtId="181579968"
-	ConnVar="274475344"
+	RtId="254488216"
+	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
 	Hidden="0"
@@ -1058,7 +1126,7 @@
 	Type="4099">
 <Val
 	Size="1"
-	String0="Square"
+	String0="Pentagon"
 />
 </Obj>
 <Annot
@@ -1066,7 +1134,7 @@
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="name[]: (Square, ...) [1]"
+	Text="name[]: (Pentagon, ...) [1]"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -1077,7 +1145,7 @@
 </Annot>
 </id8>
 <id9
-	RtId="181577472"
+	RtId="254488856"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -1087,7 +1155,7 @@
 	Type="4100">
 <Val
 	Size="1"
-	Value="(384.65653991699219,678.60619354248047)"
+	Value="(500.016,399.011)"
 />
 </Obj>
 <Annot
@@ -1095,18 +1163,18 @@
 	X="521"
 	Y="534"
 	Clr="0"
-	Text="location[]: ((384.66, 678.61), ...) [1]"
+	Text="location[]: ((500.02, 399.01), ...) [1]"
 	Display="1"
 	Highlight="0"
-	So="180496272">
+	So="244113528">
 <Coord
 	Size="2"
-	Value="384.657,678.606"
+	Value="500.016,399.011"
 />
 </Annot>
 </id9>
 <id10
-	RtId="181576640"
+	RtId="254489520"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -1116,7 +1184,7 @@
 	Type="4098">
 <Val
 	Size="1"
-	Value="99.845260620117188"
+	Value="96.5546"
 />
 </Obj>
 <Annot
@@ -1124,7 +1192,7 @@
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="score[]: ((99.85), ...) [1]"
+	Text="score[]: ((96.55), ...) [1]"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -1135,8 +1203,8 @@
 </Annot>
 </id10>
 <id11
-	RtId="181575808"
-	ConnVar="274479920"
+	RtId="254490160"
+	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
 	Hidden="0"
@@ -1145,7 +1213,7 @@
 	Type="4098">
 <Val
 	Size="1"
-	Value="-0.0056765138194903352"
+	Value="0.593848"
 />
 </Obj>
 <Annot
@@ -1153,7 +1221,7 @@
 	X="-1"
 	Y="-1"
 	Clr="0"
-	Text="angle[]: ((-0.01), ...) [1]"
+	Text="angle[]: ((0.59), ...) [1]"
 	Display="1"
 	Highlight="0"
 	So="0">
@@ -1164,7 +1232,7 @@
 </Annot>
 </id11>
 <id12
-	RtId="181578304"
+	RtId="254490800"
 	ConnVar="0"
 	Watch="0"
 	SpcOn="0"
@@ -1174,7 +1242,7 @@
 	Type="4098">
 <Val
 	Size="1"
-	Value="0.99926203489303589"
+	Value="1.00068"
 />
 </Obj>
 <Annot
@@ -1197,7 +1265,7 @@
 <id0
 	RtName="execution mode"
 	RtType="2"
-	RtId="180175888"
+	RtId="244504440"
 	ValType="263"
 	Connected="0">
 <Obj
@@ -1208,7 +1276,7 @@
 <id1
 	RtName="max matches"
 	RtType="2"
-	RtId="180171936"
+	RtId="254491632"
 	ValType="257"
 	Connected="0">
 <Obj
@@ -1219,7 +1287,7 @@
 <id2
 	RtName="min score"
 	RtType="2"
-	RtId="180176192"
+	RtId="254491960"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1230,7 +1298,7 @@
 <id3
 	RtName="min rotation"
 	RtType="2"
-	RtId="180178016"
+	RtId="254492328"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1241,7 +1309,7 @@
 <id4
 	RtName="max rotation"
 	RtType="2"
-	RtId="180170416"
+	RtId="254492704"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1252,7 +1320,7 @@
 <id5
 	RtName="min scale"
 	RtType="2"
-	RtId="180170720"
+	RtId="254493024"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1263,7 +1331,7 @@
 <id6
 	RtName="max scale"
 	RtType="2"
-	RtId="167295968"
+	RtId="254493344"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1274,7 +1342,7 @@
 <id7
 	RtName="timeout"
 	RtType="2"
-	RtId="181587744"
+	RtId="254493688"
 	ValType="256"
 	Connected="0">
 <Obj
@@ -1285,7 +1353,7 @@
 <id8
 	RtName="timeout value"
 	RtType="2"
-	RtId="181588048"
+	RtId="254493936"
 	ValType="258"
 	Connected="0">
 <Obj
@@ -1296,7 +1364,7 @@
 <id9
 	RtName="pattern rectangle"
 	RtType="2"
-	RtId="181583792"
+	RtId="254494280"
 	ValType="256"
 	Connected="0">
 <Obj
@@ -1307,7 +1375,7 @@
 <id10
 	RtName="model name"
 	RtType="2"
-	RtId="181584096"
+	RtId="254494560"
 	ValType="259"
 	Connected="0">
 <Obj
@@ -1321,7 +1389,7 @@
 <Proxy
 	RtName="[None]"
 	RtType="7"
-	RtId="167498544"
+	RtId="254482664"
 	ValType="1028">
 <Obj
 	Type="10">
@@ -1332,13 +1400,388 @@
 </Proxy>
 </Instruction>
 <Instruction
-	RtName="Detectar y rotar Pieza"
+	RtName="Rotation"
 	RtType="5"
-	RtId="180661008"
+	RtId="255696712"
 	ParentInstr="0"
 	InstrType="14"
 	Collapsed="0"
-	ScriptCode="//Check for Figure:&#xD;	if ( Vars.FiguresFounded[0] = &quot;Circle&quot; )&#xD;	{&#xD;		&#xD;	}&#xD;	else if ( Vars.FiguresFounded[0] = &quot;Triangle&quot; )&#xD;	{&#xD;	}&#xD;	else if ( Vars.FiguresFounded[0] = &quot;Square&quot; )&#xD;	{&#xD;	}&#xD;	else if ( Vars.FiguresFounded[0] = &quot;Pentagon&quot; )&#xD;	{&#xD;	}">
+	ScriptCode="// Check for angle:&#xD;var Time = &quot; T3000 \x0D&quot;;&#xD;if ( Vars.Angle != 0 )&#xD;{&#xD;	Vars.NewAngle =   1500 + ( Vars.Angle * ( 180 / Math.PI ) * 5 );&#xD;	Vars.Rotate 	  = &quot;#4 P&quot;+Vars.NewAngle+Time;&#xD;}">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ifCircle"
+	RtType="5"
+	RtId="255761480"
+	ParentInstr="0"
+	InstrType="10"
+	Collapsed="1"
+	Condition="[FigureFounded] == &quot;Circle&quot;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ifSquare"
+	RtType="5"
+	RtId="255738472"
+	ParentInstr="0"
+	InstrType="10"
+	Collapsed="1"
+	Condition="[FigureFounded] == &quot;Square&quot;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ifTriangle"
+	RtType="5"
+	RtId="255740136"
+	ParentInstr="0"
+	InstrType="10"
+	Collapsed="1"
+	Condition="[FigureFounded] == &quot;Triangle&quot;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ifPentagon"
+	RtType="5"
+	RtId="255715752"
+	ParentInstr="0"
+	InstrType="10"
+	Collapsed="1"
+	Condition="[FigureFounded] == &quot;Pentagon&quot;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string Rotate"
+	RtType="5"
+	RtId="254364304"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255717024"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255716304"
+	Connected="244100936">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255696024"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="256019816"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="30"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 30.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256019232"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_E"
+	RtType="5"
+	RtId="255760696"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(6000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string OpenGripper"
+	RtType="5"
+	RtId="254367344"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255989944"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255627672"
+	Connected="244100520">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255628040"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="255958504"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 15.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="255842824"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_D_A"
+	RtType="5"
+	RtId="255811456"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string toHome"
+	RtType="5"
+	RtId="272526824"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="254398232"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="311372736"
+	Connected="244097144">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="272521600"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="277052920"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="60"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 60.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="277053440"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_D"
+	RtType="5"
+	RtId="272378448"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(6000);">
 <Inputs
 />
 <Outputs
@@ -1349,68 +1792,565 @@
 <Instruction
 	RtName="End"
 	RtType="5"
-	RtId="180566640"
-	ParentInstr="180496272"
+	RtId="254367496"
+	ParentInstr="244113528"
 	InstrType="5"
 	Collapsed="0"
-	ParentSo="180496272"
+	ParentSo="244113528"
 />
+<Instruction
+	RtName="Send string Circle"
+	RtType="5"
+	RtId="254367912"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255639000"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255643184"
+	Connected="244134552">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255647360"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="255841624"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="41"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 41.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="255688264"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_A"
+	RtType="5"
+	RtId="255686176"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(8000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string Square"
+	RtType="5"
+	RtId="254369960"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255645496"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255641320"
+	Connected="244010488">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255637136"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="255634256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="40"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 40.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="255652208"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_B"
+	RtType="5"
+	RtId="255881224"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(8000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string Triangle"
+	RtType="5"
+	RtId="254324696"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255633424"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255839344"
+	Connected="244010592">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255811776"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="255662656"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="41"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 41.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256099408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_C"
+	RtType="5"
+	RtId="255900888"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(8000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Send string Pentagon"
+	RtType="5"
+	RtId="254374192"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="255787912"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="255787656"
+	Connected="244010696">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="255787144"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="255651024"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="40"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 40.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="255651544"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Sleep_C_D"
+	RtType="5"
+	RtId="255920800"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//5 seconds delay:&#xD;System.Sleep(8000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
 </Instructions>
 <Structure>
 <Branch
 	Parent="0">
 <Children>
 <Child
-	Id="179298160"
+	Id="244010328"
 />
 </Children>
 </Branch>
 <Branch
-	Parent="179298160">
+	Parent="244010328">
 <Children>
 <Child
-	Id="180496272"
+	Id="244113528"
 />
 </Children>
 </Branch>
 <Branch
-	Parent="180496272">
+	Parent="244113528">
 <Children>
 <Child
-	Id="180569904"
+	Id="244503680"
 />
 <Child
-	Id="180565552"
+	Id="254472696"
 />
 <Child
-	Id="180656784"
+	Id="244022024"
 />
 <Child
-	Id="180567728"
+	Id="244502368"
 />
 <Child
-	Id="180658192"
+	Id="244057648"
 />
 <Child
-	Id="180570992"
+	Id="254477432"
 />
 <Child
-	Id="180653968"
+	Id="244175000"
 />
 <Child
-	Id="180566368"
+	Id="254479576"
 />
 <Child
-	Id="180656432"
+	Id="244176480"
 />
 <Child
-	Id="181332016"
+	Id="254481720"
 />
 <Child
-	Id="180661008"
+	Id="254481936"
 />
 <Child
-	Id="180566640"
+	Id="255696712"
+/>
+<Child
+	Id="255761480"
+/>
+<Child
+	Id="255738472"
+/>
+<Child
+	Id="255740136"
+/>
+<Child
+	Id="255715752"
+/>
+<Child
+	Id="254364304"
+/>
+<Child
+	Id="255760696"
+/>
+<Child
+	Id="254367344"
+/>
+<Child
+	Id="255811456"
+/>
+<Child
+	Id="272526824"
+/>
+<Child
+	Id="272378448"
+/>
+<Child
+	Id="254367496"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="255761480">
+<Children>
+<Child
+	Id="254367912"
+/>
+<Child
+	Id="255686176"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="255738472">
+<Children>
+<Child
+	Id="254369960"
+/>
+<Child
+	Id="255881224"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="255740136">
+<Children>
+<Child
+	Id="254324696"
+/>
+<Child
+	Id="255900888"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="255715752">
+<Children>
+<Child
+	Id="254374192"
+/>
+<Child
+	Id="255920800"
 />
 </Children>
 </Branch>
