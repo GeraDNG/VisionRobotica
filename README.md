@@ -9,3 +9,4 @@ Las carpetas, según su inicial, corresponden a:
   - E: Examen.
   - H: Tareas.
   - P: Proyecto.
+  - Bebop: Archivos (python) sobre el Drone Bebop.
